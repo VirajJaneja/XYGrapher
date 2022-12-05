@@ -1,5 +1,5 @@
 
-public abstract class XYGrapher {
+public abstract class XYGrapher extends GoodDrawGraph{
 	abstract public Coordinate xyStart();
 	
 	abstract public double xRange();
@@ -7,8 +7,8 @@ public abstract class XYGrapher {
 	
 	abstract public Coordinate getPoint(int pointNum);
 	
-	public void drawGraph(int xPixelStart, int yPixelStart, int pixelsWide, int pixelsHigh) {
-			
-	}
+//	public void drawGraph(int xPixelStart, int yPixelStart, int pixelsWide, int pixelsHigh) {
+//		
+//	}
 	
 }
